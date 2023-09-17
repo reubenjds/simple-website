@@ -1,13 +1,11 @@
-import { useState } from 'react'
-import './App.css'
-
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <h1>Vite + React</h1>
+      <h1>👋 Hey, I'm Reuben</h1>
+      {/* <a href="https://www.linkedin.com/in/reubenjds/" target="_blank">Computer Science @ uOttawa </a> */}
+      
     </>
+    
   )
 }
 
