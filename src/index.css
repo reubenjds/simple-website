@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #424242;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -20,15 +20,6 @@
   text-align: center;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
 body {
   margin: 0;
   display: flex;
@@ -38,11 +29,19 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 4.2em;
   line-height: 1.1;
 }
 
-img {
-  width: 50px;
+.abs {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+.pad {
   padding: 5px;
+}
+
+.hover-red:hover {
+  fill: red;
 }
