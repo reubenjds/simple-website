@@ -7,7 +7,6 @@ function Theme () {
             body.setAttribute("data-theme", "light");
         } else if (body.getAttribute("data-theme") == "light") {
             body.setAttribute("data-theme", "dark");
-            button.setAttribute("tetx")
         } 
     }
     return ( 
@@ -15,4 +14,4 @@ function Theme () {
      );
 }
 
-export default Theme ;
+export default Theme;

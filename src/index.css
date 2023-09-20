@@ -10,6 +10,15 @@
     background-color: #424242;
     color-scheme: light dark;
   }
+
+  [data-theme = 'light'] {
+    background-color: #ffeaea;
+    color-scheme: light;
+    
+    h1 {
+      color: black;
+    }
+  }
   
 
   font-synthesis: none;
@@ -45,6 +54,10 @@ h1 {
 }
 .pad {
   padding: 5px;
+}
+
+.transition {
+  transition: all 0.3s ease-in-out
 }
 
 .hover-red:hover {
