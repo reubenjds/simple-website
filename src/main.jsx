@@ -10,5 +10,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Theme />
     <App />
     <Logos/>
-  </React.StrictMode>,
+  </React.StrictMode>
 )
