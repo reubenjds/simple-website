@@ -1,16 +1,22 @@
-function Theme () {
+import { useState } from "react";
 
+function Theme () {
+    const [theme, setTheme] = useState("dark");
     const handleButton = () => {
         const body = document.querySelector("body");
-        const button = document.querySelector("button");
-        if (body.getAttribute("data-theme") == "dark") {
+
+        if (theme == "dark") {
+            setTheme("light");
             body.setAttribute("data-theme", "light");
-        } else if (body.getAttribute("data-theme") == "light") {
+        } else if (theme == "light") {
+            setTheme("dark");
             body.setAttribute("data-theme", "dark");
         } 
     }
     return ( 
-        <button class='abs' onClick={handleButton}>Button</button>
+        <button class='abs' onClick={handleButton}>
+            {theme === 'dark' ? <h2>☀️</h2>: <h2>🌑</h2>}
+        </button>
      );
 }
 
