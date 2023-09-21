@@ -15,7 +15,7 @@ function Theme () {
     }
     return ( 
         <button class='abs' onClick={handleButton}>
-            {theme === 'dark' ? <h2>☀️</h2>: <h2>🌑</h2>}
+            {theme === 'dark' ? <h2>☀️</h2> : <h2>🌑</h2>}
         </button>
      );
 }
