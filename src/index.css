@@ -58,9 +58,17 @@ h1 {
 }
 
 .transition {
-  transition: all 0.3s ease-in-out
+  transition: all 0.5s ease-in-out
 }
 
 .hover-red:hover {
   fill: red;
+}
+
+.fill-github {
+  fill: #1B1F23;
+}
+
+.fill-linkedin {
+  fill: #007EBB;
 }
