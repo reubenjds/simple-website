@@ -1,14 +1,10 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import Name from './Name.jsx'
-import Logos from './Logos.jsx'
-import Theme from './Theme.jsx'
-import './index.css'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App.jsx";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <Theme />
-    <Name />
-    <Logos/>
-  </React.StrictMode>
-)
+ReactDOM.createRoot(document.getElementById("root")).render(
+	<React.StrictMode>
+		<App />
+	</React.StrictMode>
+);
