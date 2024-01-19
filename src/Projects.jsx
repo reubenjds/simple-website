@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Theme from "./Theme";
 import Project from "./Project";
 import Projs from "../assets/Projects.json";
+import Back from "./Back";
 
 export default function Projects() {
 	useEffect(() => {
@@ -15,6 +16,7 @@ export default function Projects() {
 	return (
 		<>
 			<Theme />
+			<Back />
 			<div>
 				<div class='scroll-area'> Scroll to view projects! </div>
 				{Projs.map((p) => {

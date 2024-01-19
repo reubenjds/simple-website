@@ -40,6 +40,9 @@
 	& .scroll-area {
 		color: black;
 	}
+	& .back {
+		color: black;
+	}
 }
 
 body {
@@ -85,6 +88,15 @@ h1 {
 	top: 50px;
 	right: 50px;
 }
+
+.back {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	font-size: xx-large;
+	color: white;
+}
+
 .pad {
 	padding: 5px;
 }
