@@ -7,7 +7,7 @@ function Project(props) {
 				<Link to={props.link}>
 					<img
 						class='projectimg hover-large transition'
-						src={`../public/${props.name}.png`}
+						src={`/${props.name}.png`}
 					/>
 				</Link>
 				<div class='flexcol'>
