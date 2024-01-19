@@ -2,14 +2,20 @@ function Project(props) {
 	return (
 		<div class='scroll-area'>
 			<div class='flexrow'>
-				<img
-					class='projectimg hover-large transition'
-					src={`../assets/${props.thumbnail}.png`}
-				/>
+				<a href={props.link}>
+					<img
+						class='projectimg hover-large transition'
+						src={`../assets/${props.name}.png`}
+					/>
+				</a>
 				<div class='flexcol'>
 					<div class='projectheading'>
-						{props.name}{" "}
-						<a class='pad' href={`https://github.com/reubenjds/${props.name}`}>
+						{props.name}
+						<a
+							class='pad'
+							href={
+								props.github ?? `https://github.com/reubenjds/${props.name}`
+							}>
 							<svg
 								class='hover-large fill-github transition'
 								width='50'
