@@ -2,8 +2,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Name from "./Name.jsx";
 import Logos from "./Logos.jsx";
 import Theme from "./Theme.jsx";
-import Project from "./Project.jsx";
 import ViewProjects from "./ViewProjects.jsx";
+import Projects from "./Projects.jsx";
 
 function App() {
 	return (
@@ -22,19 +22,7 @@ function App() {
 						</div>
 					}
 				/>
-				<Route
-					path='projects'
-					element={
-						<>
-							<Theme />
-							<div class='scroll-container'>
-								<Project />
-								<Project />
-								<Project />
-							</div>
-						</>
-					}
-				/>
+				<Route path='projects' element={<Projects />} />
 				{/* Catch all route */}
 				<Route path='*' element={<div>404</div>} />
 			</Routes>
