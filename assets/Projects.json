@@ -18,6 +18,6 @@
 	{
 		"name": "Coinflip",
 		"link": "https://coinflip.reubendsouza.com/",
-		"description": "Coinflip minigame using SvelteKit with leaderboard implementation using better-sqlite3."
+		"description": "Coinflip minigame with leaderboard implementation using better-sqlite3."
 	}
 ]
