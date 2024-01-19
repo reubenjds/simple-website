@@ -1,0 +1,23 @@
+[
+	{
+		"name": "Pokedex",
+		"link": "https://pokemon.reubendsouza.com/",
+		"description": "The first generation Pokédex using the MEVN stack."
+	},
+	{
+		"name": "Moonqwake",
+		"link": "https://moonqwake.pages.dev/",
+		"description": "A 3d moonquake viewer with timeline scrubbing and visual insights."
+	},
+	{
+		"name": "FileShare",
+		"github": "https://github.com/reubenjds/P2P-File-Share",
+		"link": "https://hth-fileshare.netlify.app/",
+		"description": "Peer-to-peer file sharing using WebRTC."
+	},
+	{
+		"name": "Coinflip",
+		"link": "https://coinflip.reubendsouza.com/",
+		"description": "Coinflip minigame using SvelteKit with leaderboard implementation using better-sqlite3."
+	}
+]
