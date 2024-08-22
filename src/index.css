@@ -109,10 +109,6 @@ h1 {
 	transition: color 0.3s ease, transform 0.2s ease;
 }
 
-.abs:hover {
-	transform: scale(1.35);
-}
-
 .back {
 	position: absolute;
 	top: 50px;
@@ -127,10 +123,6 @@ h1 {
 
 .transition {
 	transition: all 0.5s;
-}
-
-.hover-large:hover {
-	transform: scale(1.1);
 }
 
 .fill-github {
@@ -200,6 +192,14 @@ h1 {
 	.flexrow {
 		display: flex;
 		flex-direction: row;
+	}
+
+	.abs:hover {
+		transform: scale(1.35);
+	}
+
+	.hover-large:hover {
+		transform: scale(1.1);
 	}
 
 	.projectimg {
