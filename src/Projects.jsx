@@ -25,7 +25,8 @@ export default function Projects() {
 							name={p.name}
 							link={p.link}
 							github={p.github ?? null}
-							description={p.description}></Project>
+							description={p.description}
+							badges={p.badges}></Project>
 					);
 				})}
 			</div>

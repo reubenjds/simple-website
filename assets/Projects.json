@@ -2,23 +2,27 @@
 	{
 		"name": "Pokedex",
 		"link": "https://pokemon.reubendsouza.com/",
-		"description": "The first generation Pokédex using the MEVN stack."
+		"description": "The first generation Pokédex using the MEVN stack.",
+		"badges": ["Vue.js", "Express.js", "MongoDB"]
 	},
 	{
 		"name": "Moonqwake",
 		"link": "https://moonqwake.pages.dev/",
 		"github": "https://github.com/y2space/moonqwake",
-		"description": "A 3d moonquake viewer with timeline scrubbing and visual insights."
+		"description": "A 3d moonquake viewer with timeline scrubbing and visual insights.",
+		"badges": ["Three.js", "Svelte.js", "DaisyUI"]
 	},
 	{
 		"name": "FileShare",
 		"github": "https://github.com/reubenjds/P2P-File-Share",
 		"link": "https://hth-fileshare.netlify.app/",
-		"description": "Peer-to-peer file sharing using WebRTC."
+		"description": "Peer-to-peer file sharing using WebRTC.",
+		"badges": ["React.js", "WebRTC", "Peer.js"]
 	},
 	{
 		"name": "Coinflip",
 		"link": "https://coinflip.reubendsouza.com/",
-		"description": "Coinflip minigame with leaderboard implementation using better-sqlite3."
+		"description": "Coinflip minigame with leaderboard implementation using better-sqlite3.",
+		"badges": ["Svelte.js", "Express.js", "SQLite"]
 	}
 ]
