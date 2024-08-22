@@ -20,8 +20,8 @@ function Project(props) {
                             to={props.github ?? `https://github.com/reubenjds/${props.name}`}>
                             <svg
                                 className='hover-large fill-github transition'
-                                width='50'
-                                height='50'
+                                width='40'
+                                height='40'
                                 viewBox='0 0 16 16'
                                 xmlns='http://www.w3.org/2000/svg'>
                                 <path
